@@ -1,0 +1,17 @@
+﻿<div [hidden]="ready">Loading...</div>
+<div>
+    <a [hidden]="!ready" [routerLink]="['/NewForm']">New Announcement</a>
+</div>
+<table class="table table-striped" [hidden]="!ready">
+    <caption>Announcements</caption>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Body</th>
+        </tr>
+    </thead>
+    <tr *ngFor="#item of items">
+        <td>{{item.Title}}</td>
+        <td>{{item.Body}}</td>
+    </tr>
+</table>

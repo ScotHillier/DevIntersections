@@ -1,0 +1,1 @@
+{"version":3,"file":"simple.service.js","sourceRoot":"","sources":["simple.service.ts"],"names":["SimpleService","SimpleService.constructor","SimpleService.getMessage"],"mappings":";;;;;YAAA;gBACIA;gBACAC,CAACA;gBACDD,kCAAUA,GAAVA;oBACIE,MAAMA,CAACA,eAAeA,CAACA;gBAC3BA,CAACA;gBACLF,oBAACA;YAADA,CAACA,AAND,IAMC;YAND,yCAMC,CAAA"}

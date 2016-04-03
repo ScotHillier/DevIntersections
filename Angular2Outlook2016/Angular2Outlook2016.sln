@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular2Outlook2016", "Angular2Outlook2016\Angular2Outlook2016.csproj", "{CA5FBDCF-1AA2-46AC-B346-C55E5329D86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular2Outlook2016Web", "Angular2Outlook2016Web\Angular2Outlook2016Web.csproj", "{258C2673-E113-4FEF-926E-6D3BB10D9D75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA5FBDCF-1AA2-46AC-B346-C55E5329D86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5FBDCF-1AA2-46AC-B346-C55E5329D86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5FBDCF-1AA2-46AC-B346-C55E5329D86B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA5FBDCF-1AA2-46AC-B346-C55E5329D86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5FBDCF-1AA2-46AC-B346-C55E5329D86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5FBDCF-1AA2-46AC-B346-C55E5329D86B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{258C2673-E113-4FEF-926E-6D3BB10D9D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258C2673-E113-4FEF-926E-6D3BB10D9D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258C2673-E113-4FEF-926E-6D3BB10D9D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258C2673-E113-4FEF-926E-6D3BB10D9D75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

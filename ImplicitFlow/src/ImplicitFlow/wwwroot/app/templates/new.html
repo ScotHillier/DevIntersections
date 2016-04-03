@@ -1,0 +1,18 @@
+﻿<div class="panel">
+    <div class="panel-heading">
+        Add New Announcement
+    </div>
+    <div class="panel-body">
+        <form class="form-inline" role="form">
+            <div class="form-group">
+                <label for="newTitle">Title</label>
+                <input [(ngModel)]="title" type="text" class="form-control" id="newTitle" placeholder="Title" required>
+                <div class="error">Please enter a valid title</div>
+                <label for="newBody">Body</label>
+                <input [(ngModel)]="body" type="text" class="form-control" id="newBody" placeholder="Body" required>
+                <div class="error">Please enter a valid body</div>
+                <button (click)="add()" type="button" class="btn btn-primary">Add</button>
+            </div>
+        </form>
+    </div>
+</div>

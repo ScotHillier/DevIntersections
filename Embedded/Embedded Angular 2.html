@@ -1,0 +1,47 @@
+<hello-angular2></hello-angular2>
+
+<script>
+
+CDNManager.getScript(['angular2-all.umd.min.js'], function () {
+
+  //namespace
+  var myApp = window.myApp || {};
+  
+  //service
+  myApp.AppService =
+    ng.core.Class({
+      constructor: function() {},
+      getCurrentUser: function() {
+        return Rx.Observable.create(function(observer){
+          this.ctx = new SP.ClientContext.get_current();
+          this.user = this.ctx.get_web().get_currentUser();
+          this.ctx.load(this.user);
+          this.ctx.executeQueryAsync(
+              Function.createDelegate(this,function() {
+                observer.next("Welcome, " + this.user.get_title() + "!");
+              }),
+              Function.createDelegate(this,function(sender, args) {
+                observer.error(args.get_message());
+              }));
+          });
+      }
+    });
+
+  //component
+  myApp.AppComponent =
+    ng.core.Component({
+      selector: 'hello-angular2',
+      template: '<h1>{{greeting | async}}</h1>'
+    })
+    .Class({
+      constructor: [myApp.AppService, function(svc) {
+
+	 this.greeting = svc.getCurrentUser();
+      }]
+    });
+    
+    ng.platform.browser.bootstrap(myApp.AppComponent, [myApp.AppService]);
+
+});
+
+</script>

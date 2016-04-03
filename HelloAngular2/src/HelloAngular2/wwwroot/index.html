@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello, Angular 2</title>
+
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="node_modules/rxjs/bundles/rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!--
+        angular2.js is in 'register' format, which provides ES6 semantics in ES5 browsers
+        Notice how the System loader is used with it
+        Good for TypeScript transpiling to ES5
+    -->
+
+    <script>
+        System.config({
+            packages: {
+                'app': {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('app/boot')
+              .then(null, console.error.bind(console));
+    </script>
+</head>
+<body>
+    <div class="container">
+        <app-main>Loading...</app-main>
+    </div>
+</body>
+</html>

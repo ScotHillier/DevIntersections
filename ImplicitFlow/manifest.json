@@ -1,0 +1,68 @@
+{
+  "appId": "17a0bd5d-3165-4389-ac57-953149d80cb8",
+  "appRoles": [],
+  "availableToOtherTenants": false,
+  "displayName": "Angular2 Implicit Flow",
+  "errorUrl": null,
+  "groupMembershipClaims": null,
+  "homepage": "https://localhost:44307/index.html",
+  "identifierUris": [
+    "https://shillier.sharepoint.com/Angular2ImplicitFlow"
+  ],
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logoutUrl": null,
+  "oauth2AllowImplicitFlow": true,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access Angular2 Implicit Flow on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access Angular2 Implicit Flow",
+      "id": "305af151-b823-454c-b4ec-e6bbb00fd128",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access Angular2 Implicit Flow on your behalf.",
+      "userConsentDisplayName": "Access Angular2 Implicit Flow",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequirePostResponse": false,
+  "passwordCredentials": [],
+  "publicClient": null,
+  "replyUrls": [
+    "https://localhost:44307/index.html"
+  ],
+  "requiredResourceAccess": [
+    {
+      "resourceAppId": "00000003-0000-0ff1-ce00-000000000000",
+      "resourceAccess": [
+        {
+          "id": "56680e0d-d2a3-4ae1-80d8-3c4f2100e3d0",
+          "type": "Scope"
+        }
+      ]
+    },
+    {
+      "resourceAppId": "00000002-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        }
+      ]
+    }
+  ],
+  "samlMetadataUrl": null,
+  "extensionProperties": [],
+  "objectType": "Application",
+  "objectId": "e9e8a5dc-1bf5-47fc-922c-73d0ca7d8747",
+  "deletionTimestamp": null,
+  "createdOnBehalfOf": null,
+  "createdObjects": [],
+  "manager": null,
+  "directReports": [],
+  "members": [],
+  "memberOf": [],
+  "owners": [],
+  "ownedObjects": []
+}

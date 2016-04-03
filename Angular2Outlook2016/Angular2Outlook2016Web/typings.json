@@ -1,0 +1,5 @@
+{
+  "ambientDependencies": {
+    "office-js": "registry:dt/office-js#0.0.0+20160317120654"
+  }
+}

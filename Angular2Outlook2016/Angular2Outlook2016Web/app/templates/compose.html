@@ -1,0 +1,17 @@
+﻿<div class="ms-fontColor-themeDarker" style="margin:5px;">
+    <div class="ms-font-s-plus" style="padding-bottom:5px;">Select a quick response from the choices below:</div>
+    <div class="ms-Grid">
+        <div class="ms-Grid-row" *ngFor="#response of responses" style="padding-bottom:5px;">
+            <div class="ms-Grid-col ms-u-sm6 ms-u-md8 ms-u-lg10">
+                <div class="ms-font-m ms-fontWeight-semibold">
+                    {{response}}
+                </div>
+            </div>
+            <div class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg2">
+                <button class="ms-Button ms-Button--primary" (click)="insertResponse(response)">
+                    <span class="ms-Button-label">Respond!</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
